@@ -8,6 +8,12 @@
 
 var name = "Daniel";
 var danielsRole = "mentor";
+if(danielsRole === "mentor"){
+  return `Hi , I'm ${name}, I'm a ${danielsRole} `;
+}
+if(danielsRole === "student"){
+  return `Hi , I'm ${name}, I'm a ${danielsRole} `;
+}
 
 /* 
 EXPECTED RESULT
