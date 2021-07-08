@@ -14,8 +14,13 @@
  */
 
 // `getAllFrequencies` goes here
-
+let frequencingArray = [87];
+for(let i = 0 ; i <= 20 ; i++){
+  frequencingArray.push(frequencingArray[0]+1);
+}
+console.log(frequencingArray);
 /**
+ * 
  * Next, let's write a function that gives us only the frequencies that are radio stations.
  * Call this function `getStations`.
  *
